@@ -1,0 +1,89 @@
+* {
+    color: rgb(174, 197, 40);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container1 {
+    font-size: 125%;
+    font-weight: 125%;
+}
+
+.containter3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid;
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+.nav {
+    
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.home:hover {
+    opacity: 0.5;
+}
+
+.aboutme:hover {
+    opacity: 0.5;
+}
+
+.projectsnavbar {
+   opacity: 0.8;
+}
+
+.Horiseonimg:hover {
+    opacity: 0.5;
+}
+
+:
+
+#Mainhdr {
+    text-align: center;
+    font-size: 550%;
+}
+
+.listhead {
+    list-style: none;
+    display: flex;
+    height: 5px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex: 1 0 auto;
+    
+}
+
+.projects {
+    text-align: center;
+    font-size: 330%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    
+}
+
+.img1pr:hover {
+    opacity: 0.5;
+    
+    
+}
+
+.img2pr:hover {
+    opacity: 0.5;
+
+}
+
+.img3pr:hover {
+    opacity: 0.5;
+}
+
+.img4pr:hover {
+    opacity: 0.5;
+
+}
