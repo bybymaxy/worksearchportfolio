@@ -3,9 +3,27 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.nav {
+
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    margin: 10px;
+    width: 100%;
+    padding: 2px;
+}
+
+.center1 {
+    text-align: center;
+
+}
+
 .container1 {
-    font-size: 125%;
-    font-weight: 125%;
+    font-size: 75%;
+    font-weight: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .containter3 {
@@ -13,40 +31,42 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    position: absolute;
+    position: relative;
     border: 1px solid;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.boxforalbert {
+    display: flex;
     flex: 1 0 auto;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 140%;
+    position: relative;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.nav {
-    
-    position: fixed;
-    top: 20px;
-    right: 20px;
+.Profilepic {
+    width: 45%;
 }
 
-.home:hover {
-    opacity: 0.5;
-}
-
-.aboutme:hover {
-    opacity: 0.5;
-}
-
-.projectsnavbar {
-   opacity: 0.8;
+.Horiseonimg {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border: #8b0303;
+    width: 100%;
 }
 
 .Horiseonimg:hover {
     opacity: 0.5;
-}
-
-:
-
-#Mainhdr {
-    text-align: center;
-    font-size: 550%;
+    cursor: pointer;
 }
 
 .listhead {
@@ -57,7 +77,6 @@
     flex-wrap: wrap;
     margin: 10px;
     flex: 1 0 auto;
-    
 }
 
 .projects {
@@ -65,13 +84,31 @@
     font-size: 330%;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid;
-    
+
+}
+
+footer {
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.googlelogo {
+    width: 10%;
+}
+
+.youtubelogo:first-child {
+    width: 45%;
+}
+
+.amazonlogo:last-child {
+    width: 45%;
 }
 
 .img1pr:hover {
     opacity: 0.5;
-    
-    
 }
 
 .img2pr:hover {
@@ -85,5 +122,65 @@
 
 .img4pr:hover {
     opacity: 0.5;
+}
+
+.home:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.aboutme:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.hoveraboutme:hover {
+    opacity: 0.5;
+}
+
+.projectsnavbar {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+@media (max-width: 968px) {
+    * {
+        color: #22992c;
+    }
+
+}
+
+@media (max-width: 968px) {
+    .Profilepic {
+        width: 75%;
+    }
+}
+
+@media (max-width: 968px) {
+    .Horiseonimg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        position: static;
+        background-color: transparent;
+        color: #333;
+        padding: 20px;
+        display: inline;
+        font-size: ;
+    }
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        font-size: 95%;
+    }
 
 }
