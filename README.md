@@ -37,7 +37,7 @@ N/A
 ## Questions
 N/A
 
-
----
+[github repository](https://github.com/bybymaxy/worksearchportfolio) 
+[live worksearch portfoflio](https://bybymaxy.github.io/worksearchportfolio/)
 
 © [Year] [Your Name]. All Rights Reserved.
