@@ -7,7 +7,6 @@
 
 .center1 {
     text-align: center;
-
 }
 
 .nav {
@@ -53,10 +52,24 @@
 }
 
 .Headerstyling {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 330%;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.Headerstyling2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 330%;
+    text-align: center;
+    border: 1px solid;
+    width: 50%;
+    padding: 10px;
 }
 
 .boxforalbert {
@@ -103,22 +116,39 @@
     margin-left: auto;
 }
 
+.Headerstyling3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 330%;
+    text-align: center;
+    border: 1px solid;
+    width: 30%;
+    padding: 10px;
+}
+
 /* end container2*/
 
 /*container3 */
 
 .containter3 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    border: 1px solid;
-    padding: 10px;
+    border: 1px dotted;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    width: 100%;
+    width: 50%;
+    padding-left: 12%;
+}
+
+.ct3mini {
+    padding: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .img1pr, .img2pr, .img3pr, .img4pr {
@@ -222,25 +252,25 @@ button {
 
 @media (max-width: 968px) {
     .img1pr {
-        width: 50%;
+        width: 70%;
     }
 }
 
 @media (max-width: 968px) {
     .img2pr{
-       width: 50%;
+       width: 70%;
    }
 }
 
 @media (max-width: 968px) {
     .img3pr{
-       width: 50%;
+       width: 70%;
    }
 }
 
 @media (max-width: 968px) {
     .img4pr{
-       width: 50%;
+       width: 70%;
    }
 }
 
