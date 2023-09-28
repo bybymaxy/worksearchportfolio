@@ -48,6 +48,10 @@
     flex-wrap: wrap;
 }
 
+.textwrap {
+    text-wrap: wrap;
+}
+
 .Headerstyling {
     text-align: center;
     font-size: 330%;
